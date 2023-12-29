@@ -1,0 +1,25 @@
+Ngôn ngữ C thuộc loại ngôn ngữ nào? (Hướng gì)
+So sánh nó với lập trình hướng đối tượng.
+
+
+Ngôn ngữ C thuộc dạng ngôn ngữ hướng thủ tục đơợc viết dưới dạng các thủ tục hoặc hàm (procedures hoặc functions) mà thực hiện các tác vụ cụ thể trên dữ liệu.
+
+
+So sánh
+a
+Hướng thủ tục
+Không được chia thành các đối tượng riêng lẻ
+Trong hướng thủ tục, trừu tượng và tái sử dụng code có thể bị hạn chế.
+Dữ liệu thường là công khai và có thể truy cập từ bất kỳ đâu trong chương trình.
+
+
+Huướng đối tượng xây dựng các đối tượng có trạng thái và hành vi riêng biệt. Đối tượng có thể được tái sử dụng và mở rộng dễ dàng hơn, giúp tạo ra mã nguồn dễ bảo trì và mở rộng.
+Cung cấp cơ chế đóng gói thông tin trong các đối tượng và cho phép xác định các quyền truy cập, bảo vệ thông tin riêng tư. Điều này giúp đảm bảo tính toàn vẹn của dữ liệu và ẩn chi tiết triển khai
+
+
+Hướng thủ tục: Không hỗ trợ trực tiếp kế thừa hoặc đa hình. Mỗi thủ tục thường độc lập và không liên quan đến nhau.
+Hướng đối tượng: Hỗ trợ kế thừa (inheritance) và đa hình (polymorphism). Đối tượng có thể kế thừa các thuộc tính và phương thức từ các đối tượng cha, và đa hình cho phép sử dụng các đối tượng con trong ngữ cảnh của đối tượng cha.
+
+Linh hoạt:
+Hướng thủ tục: Thường dễ hiểu cho các ứng dụng nhỏ và đơn giản. Tuy nhiên, khi ứng dụng trở nên phức tạp, quản lý code và bảo trì có thể trở nên khó khăn.
+Hướng đối tượng: Cung cấp cấu trúc rõ ràng, giúp dễ bảo trì và mở rộng ứng dụng phức tạp. Tính linh hoạt của hướng đối tượng cho phép thay đổi và cải thiện code dễ dàng hơn.
